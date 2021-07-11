@@ -9,3 +9,7 @@ $(document).ready(function () {
   //methods
   //   $.fn.fullpage.setAllowScrolling(true);
 });
+
+$("#joinBtn").on("click", function () {
+  alert("아직 기간이 아닙니다");
+});
