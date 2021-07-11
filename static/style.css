@@ -162,6 +162,7 @@ button {
   padding: 0;
   overflow: visible;
   cursor: pointer;
+  font-family: "Jua", sans-serif;
 }
 
 #joinBtn {
@@ -201,4 +202,12 @@ hr {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 90%;
+}
+
+#hand {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 2rem;
+  height: 2rem;
 }

@@ -8,10 +8,11 @@ $(document).ready(function () {
 
   //methods
   //   $.fn.fullpage.setAllowScrolling(true);
-});
 
-$("#joinBtn").on("click", function () {
-  alert("아직 기간이 아닙니다");
+  $("#joinBtn").on("click", function () {
+    location.href =
+      "https://docs.google.com/forms/d/1btR8QKKFTrHw90_3nvGWC2QYFrjbn0YmeUWIea5a2-A/edit";
+  });
 });
 
 // Set the date we're counting down to
