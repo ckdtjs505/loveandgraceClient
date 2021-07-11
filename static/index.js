@@ -3,7 +3,7 @@ $(document).ready(function () {
     //options here
     autoScrolling: true,
     scrollHorizontally: true,
-    sectionsColor: ["black", "orange"]
+    sectionsColor: ["black", "orange", "#f7ece2"]
   });
 
   //methods
