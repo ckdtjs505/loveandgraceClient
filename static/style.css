@@ -172,3 +172,32 @@ button {
   color: black;
   font-size: 2rem;
 }
+
+hr {
+  margin: auto;
+  width: 40%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+#subtitle {
+  font-size: 3rem;
+}
+
+#count {
+  font-size: 2rem;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
