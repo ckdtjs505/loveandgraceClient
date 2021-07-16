@@ -11,7 +11,7 @@ $(document).ready(function () {
 
   $("#joinBtn").on("click", function () {
     location.href =
-      "https://docs.google.com/forms/d/1btR8QKKFTrHw90_3nvGWC2QYFrjbn0YmeUWIea5a2-A/edit";
+      "https://docs.google.com/forms/d/e/1FAIpQLSfE1JB2md0B66N2WDyhZ1x6e8XgOHyBJ7tEBUQM_B5zzsKnrQ/viewform";
   });
 });
 
