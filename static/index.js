@@ -38,11 +38,11 @@ $(document).ready(function () {
       document.getElementById("count").innerHTML = "EXPIRED";
     }
 
-    count = count + 1;
-    if (count > 10) {
-      count = 0;
-      location.href = "#anchor2";
-    }
+    // count = count + 1;
+    // if (count > 10) {
+    //   count = 0;
+    //   location.href = "#anchor2";
+    // }
   }, 1000);
 
   var video = document.getElementById("myVideo");
