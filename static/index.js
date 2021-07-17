@@ -6,9 +6,6 @@ $(document).ready(function () {
     sectionsColor: ["black", "orange", "#f7ece2"]
   });
 
-  //methods
-  //   $.fn.fullpage.setAllowScrolling(true);
-
   $("#joinBtn").on("click", function () {
     location.href =
       "https://docs.google.com/forms/d/e/1FAIpQLSfE1JB2md0B66N2WDyhZ1x6e8XgOHyBJ7tEBUQM_B5zzsKnrQ/viewform";
@@ -17,11 +14,11 @@ $(document).ready(function () {
   // Set the date we're counting down to
   var countDownDate = new Date("Jul 31 2021 13:00:00").getTime();
 
+  var count = 0;
   // Update the count down every 1 second
   var x = setInterval(function () {
     // Get today's date and time
     var now = new Date().getTime();
-
     // Find the distance between now and the count down date
     var distance = countDownDate - now;
 
@@ -39,6 +36,12 @@ $(document).ready(function () {
     if (distance < 0) {
       clearInterval(x);
       document.getElementById("count").innerHTML = "EXPIRED";
+    }
+
+    count = count + 1;
+    if (count > 10) {
+      count = 0;
+      location.href = "#anchor2";
     }
   }, 1000);
 
