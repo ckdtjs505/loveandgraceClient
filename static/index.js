@@ -49,4 +49,8 @@ $(document).ready(function () {
   video.onended = function () {
     location.href = "#anchor3";
   };
+
+  document.getElementById("section2").addEventListener("click", function () {
+    location.href = "#anchor4";
+  });
 });
