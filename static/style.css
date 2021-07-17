@@ -233,3 +233,7 @@ hr {
   height: 2rem;
   /* transform: translate(-50%, -50%); */
 }
+
+#goBtn {
+  display: none;
+}
